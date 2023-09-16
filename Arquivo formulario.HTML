@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo formulario | GK</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(37, 28, 163), rgb(105, 18, 145));
+        }
+        .box{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 20px;
+            width: 15;
+
+        }
+        fieldset{
+            border: 3px solid dodgerblue;
+        }
+        legend{
+            border: 1px solid dodgerblue;
+            padding: 10px;
+            text-align: center;
+            background-color: dodgerblue;
+            border-radius: 8px;
+           
+        }
+        .inputbox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border:none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        
+        }
+        #submit{
+            background-image: linear-gradient(to right,rgb(0,92,197), rgb(90, 20, 220));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+
+        }
+        #submit:hover{
+            background-image: linear-gradient(to right,rgb(104, 135, 170), rgb(109, 67, 185));
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box"> 
+        <form action="">
+            <fieldset>
+                <legend><b>WF CADASTRO</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class=>Nome</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="email" name="Email" id="Email" class="inputUser" required>
+                    <label for="nome"class=>Email</label>
+                <div>
+                    <br>
+                </div class="inputBox">
+                    <input type="text" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone"class=>Telefone</label>
+                </div> 
+                <br>
+                <p>Sexo</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <div>
+                    <br>
+                    <div class="inputBox">
+                <label for="data_nasciemnto":><b>Data de Nascimento:</b></label> 
+                <input type="Date" name="data de nascimento" id="data de nascimento" class="inputUser" required>
+                    </div>
+                    <br>
+                    
+            </div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade"class=>Cidade</label>
+                    <div>
+                        <br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                <label for="estado"class=>Estado</label>
+                <div>
+                    <br>
+                </div class="inputBox">
+                    <input type="endereço" name="endereço" id="endereço" class="inputUser" required>
+                    <label for="endereço"class=>Endereço</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                <input type="submit" name="submit" id="submit">
+                <div>
+                
+                </fieldset>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
