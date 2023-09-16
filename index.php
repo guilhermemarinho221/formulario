@@ -10,5 +10,7 @@
     <?php
         include_once ("conexão.php");
     ?>
+
+    <p>Testando conexão ao banco de dados</p>
 </body>
 </html>
